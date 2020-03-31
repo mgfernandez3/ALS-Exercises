@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Consumo</title>
+
+    <script>
+        function check(){
+            distancia = document.getElementById("edDistancia").value;
+            tiempo = document.getElementById("edTiempo").value;
+            consumo = document.getElementById("edConsumo").value;
+
+            if(isNaN(distancia) ||
+                isNaN(tiempo) ||
+                isNaN(consumo) ||
+                distancia.trim() == 0 ||
+                tiempo.trim() == 0 ||
+                consumo.trim() == 0 ||
+                tiempo === 0){
+                return false;
+            } else {
+                return true;
+            }
+        }
+    </script>
+</head>
+<body>
+    <h1>Calcular consumo</h1>
+
+    <form id="formConsumo"
+            action="/consumo"
+            method="post"
+            onsubmit="return check()">
+        <label for="edDistancia">Distancia (en km): </label>
+        <input id="edDistancia" name="edDistancia" type="text"/>
+        <br/>
+
+        <label for="edTiempo">Tiempo (en h): </label>
+        <input id="edTiempo" name="edTiempo" type="text"/>
+        <br/>
+        <label for="edConsumo">Distancia (en km): </label>
+        <input id="edConsumo" name="edConsumo" type="text"/>
+        <br/>
+        <input type="submit" value="Calcular"/>
+    </form>
+</body>
+</html>
