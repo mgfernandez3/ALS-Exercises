@@ -3,7 +3,7 @@
   <component name="FacetManager">
     <facet type="google-appengine-python" name="Google App Engine (Python)">
       <configuration>
-        <option name="rootFolder" value="C:\Users\USUARIO\Documents\Universidade\ALS\ALS-Exercises\consumo" />
+        <option name="rootFolder" value="C:\Users\USUARIO\Documents\Universidade\ALS\generar_factura" />
         <option name="sdkFolder" value="C:\Users\USUARIO\AppData\Local\Google\CloudSDK\google-cloud-sdk\platform\google_appengine" />
       </configuration>
     </facet>

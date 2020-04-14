@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8d9d1ede-d9cc-4824-bae1-b38f406200f6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Consumo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Consumo.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="37d4f338-24aa-41a6-a394-b0c0ce554f7f" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,11 +15,7 @@
       </list>
     </option>
   </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
-  </component>
-  <component name="ProjectId" id="1ZtMAlCrC9ZN2z3DMoJ2lU1nxbD" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectId" id="1aWhuzMoKZMOmkk87LShuYRB761" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -32,18 +24,16 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\USUARIO\Documents\Universidade\ALS\ALS-Exercises\consumo\handlers" />
+      <recent name="C:\Users\USUARIO\Documents\Universidade\ALS\generar_factura\handlers" />
     </key>
   </component>
   <component name="RunManager">
-    <configuration name="Consumo" type="Python.AppEngineServer" factoryName="App Engine server">
-      <module name="Consumo" />
+    <configuration name="generar_factura" type="Python.AppEngineServer" factoryName="App Engine server">
+      <module name="generar_factura" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
@@ -64,16 +54,12 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="8d9d1ede-d9cc-4824-bae1-b38f406200f6" name="Default Changelist" comment="" />
-      <created>1585653795323</created>
+      <changelist id="37d4f338-24aa-41a6-a394-b0c0ce554f7f" name="Default Changelist" comment="" />
+      <created>1586857483806</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1585653795323</updated>
-      <workItem from="1585653796599" duration="3368000" />
-      <workItem from="1586857358414" duration="506000" />
-      <workItem from="1586857957665" duration="2174000" />
-      <workItem from="1586861603750" duration="8000" />
-      <workItem from="1586861690010" duration="41000" />
+      <updated>1586857483806</updated>
+      <workItem from="1586857485276" duration="4928000" />
     </task>
     <servers />
   </component>
@@ -81,24 +67,28 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1323" height="181" key="GridCell.Tab.0.bottom" timestamp="1585657167364">
+    <state x="463" y="124" key="FileChooserDialogImpl" timestamp="1586861597982">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="181" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1585657167364" />
-    <state width="1323" height="181" key="GridCell.Tab.0.center" timestamp="1585657167364">
+    <state x="463" y="124" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1586861597982" />
+    <state width="1323" height="327" key="GridCell.Tab.0.bottom" timestamp="1586862418139">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="181" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1585657167364" />
-    <state width="1323" height="181" key="GridCell.Tab.0.left" timestamp="1585657167364">
+    <state width="1323" height="327" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1586862418139" />
+    <state width="1323" height="327" key="GridCell.Tab.0.center" timestamp="1586862418139">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="181" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1585657167364" />
-    <state width="1323" height="181" key="GridCell.Tab.0.right" timestamp="1585657167364">
+    <state width="1323" height="327" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1586862418139" />
+    <state width="1323" height="327" key="GridCell.Tab.0.left" timestamp="1586862418139">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="181" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1585657167364" />
+    <state width="1323" height="327" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1586862418139" />
+    <state width="1323" height="327" key="GridCell.Tab.0.right" timestamp="1586862418139">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1323" height="327" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1586862418139" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/consumo$Consumo.coverage" NAME="Consumo Coverage Results" MODIFIED="1585656537538" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/generar_factura$generar_factura.coverage" NAME="generar_factura Coverage Results" MODIFIED="1586862341983" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
   </component>
 </project>

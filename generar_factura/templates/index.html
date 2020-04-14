@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Generar factura</title>
+
+    <script>
+        function check(){
+            inputs = document.getElementsByTagName('input');
+
+            for (i = 0; i < inputs.length; ++i) {
+                if(inputs[i].value.length == 0){
+                    return false;
+                }
+            }
+             return true;
+        }
+    </script>
+</head>
+<body>
+<h1>Factura</h1>
+<form id="formFactura"
+    action="/factura"
+    method="post"
+    onsubmit="return check()">
+
+    <h3>Datos del emisor</h3>
+
+    <label for="edCIFEm">CIF: </label>
+    <input id="edCIFEm" name="edCIFEm" type="text" maxlength="9"/>
+    <br/>
+
+    <label for="edNombreEm">Nombre: </label>
+    <input id="edNombreEm" name="edNombreEm" type="text"/>
+    <br/>
+
+    <label for="edDireccionEm">Dirección: </label>
+    <input id="edDireccionEm" name="edDireccionEm" type="text"/>
+    <br/>
+
+    <label for="edPoblacionEm">Población: </label>
+    <input id="edPoblacionEm" name="edPoblacionEm" type="text"/>
+    <br/>
+
+    <label for="edProvinciaEm">Provincia: </label>
+    <input id="edProvinciaEm" name="edProvinciaEm" type="text"/>
+    <br/>
+
+    <label for="edCPEm">Código postal: </label>
+    <input id="edCPEm" name="edCPEm" type="text"/>
+    <br/>
+
+    <label for="edPaisEm">País: </label>
+    <input id="edPaisEm" name="edPaisEm" type="text"/>
+    <br/>
+
+    <label for="edPersonaContactoEm">Persona de contacto: </label>
+    <input id="edPersonaContactoEm" name="edPersonaContactoEm" type="text"/>
+    <br/>
+
+    <label for="edEmailEm">e-mail: </label>
+    <input id="edEmailEm" name="edEmailEm" type="text"/>
+    <br/>
+
+    <label for="edTlfEm">Teléfono: </label>
+    <input id="edTlfEm" name="edTlf" type="text"/>
+    <br/>
+
+    <h3>Datos del cliente</h3>
+
+    <label for="edCIFCl">CIF: </label>
+    <input id="edCIFCl" name="edCIFCl" type="text"/>
+    <br/>
+
+    <label for="edNombreCl">Nombre: </label>
+    <input id="edNombreCl" name="edNombreCl" type="text"/>
+    <br/>
+
+    <label for="edDireccionCl">Dirección: </label>
+    <input id="edDireccionCl" name="edDireccionCl" type="text"/>
+    <br/>
+
+    <label for="edPoblacionCl">Población: </label>
+    <input id="edPoblacionCl" name="edPoblacionCl" type="text"/>
+    <br/>
+
+    <label for="edProvinciaCl">Provincia: </label>
+    <input id="edProvinciaCl" name="edProvinciaCl" type="text"/>
+    <br/>
+
+    <label for="edCPCl">Código postal: </label>
+    <input id="edCPCl" name="edCPCl" type="text"/>
+    <br/>
+
+    <label for="edPaisCl">País: </label>
+    <input id="edPaisCl" name="edPaisCl" type="text"/>
+    <br/>
+
+    <label for="edPersonaContactoCl">Persona de contacto: </label>
+    <input id="edPersonaContactoCl" name="edPersonaContactoCl" type="text"/>
+    <br/>
+
+    <label for="edEmailCl">e-mail: </label>
+    <input id="edEmailCl" name="edEmailCl" type="text"/>
+    <br/>
+
+    <label for="edTlfCl">Teléfono: </label>
+    <input id="edTlfCl" name="edTlfCl" type="text"/>
+    <br/>
+
+    <h3>Detalle de la factura</h3>
+    <label for="edConcepto">Concepto: </label>
+    <input id="edConcepto" name="edConcepto" type="text"/>
+    <br/>
+
+    <label for="edPrecioUnidad">Precio por unidad: </label>
+    <input id="edPrecioUnidad" name="edPrecioUnidad" type="text"/>
+    <br/>
+
+    <label for="edUnidades">Unidades: </label>
+    <input id="edUnidades" name="edUnidades" type="number"/>
+    <br/>
+
+    <label for="edImporteB">Importe bruto: </label>
+    <input id="edImporteB" name="edImporteB" type="text"/>
+    <br/>
+
+    <label for="edIVA">IVA: </label>
+    <input id="edIVA" name="edIVA" type="text"/>
+    <br/>
+
+    <label for="edImporteT">Importe total: </label>
+    <input id="edImporteT" name="edImporteT" type="text"/>
+    <br/>
+
+    <input type="submit" value="Generar factura"/>
+</form>
+
+</body>
+</html>
